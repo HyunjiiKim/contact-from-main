@@ -1,0 +1,121 @@
+/*colors*/
+/*majuscule => background-color | miniscule => color*/
+.Primary1{
+    background-color: rgb(223, 241, 231);
+}
+
+.Primary2{
+    background-color: rgb(12, 125, 105);
+}
+
+.Warning{
+    background-color: rgb(215,60,60);
+}
+
+.Gray1{
+    background-color: rgb(135,164,166);
+}
+
+.Gray2{
+    background-color: rgb(43,66,70);
+}
+
+.White{
+    background-color: rgb(255,255,255);
+}
+
+.primary1{
+    color:  rgb(223, 241, 231);
+}
+
+.primary2{
+    color: rgb(12, 125, 105);
+}
+
+.warning{
+    color: rgb(215,60,60);
+}
+
+.gray1{
+    color: rgb(135,164,166);
+}
+
+.gray2{
+    color: rgb(43,66,70);
+}
+
+.white{
+    color: rgb(255,255,255);
+}
+
+/**/
+
+label{
+    font-size: 16px;
+    color: rgb(135,164,166);
+    margin-bottom: 1em;
+}
+
+.input-flex-c{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-flex-r{
+    display:flex;
+    justify-content: space-between;
+    gap:1em;
+}
+
+.input-flex-r div{
+    flex-grow: 1;
+}
+
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 10em auto;
+    padding: 5em;
+    border: none;
+    border-radius: 8px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input{
+    padding: 10px;
+    border: 1px solid rgb(135,164,166);;
+    border-radius: 8px;
+}
+
+form .input-radio{
+    background-color: inherit;
+    padding: 10px;
+    border: 1px solid rgb(135,164,166);;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+textarea{
+    padding: 10px;
+    border: 1px solid rgb(135,164,166);;
+    border-radius: 8px;
+}
+
+form button{
+    cursor: pointer;
+    font-size: 16pt;
+    padding: 0.5em;
+    border: none;
+    border-radius: 8px;
+}
+
+.attribution{
+    text-align: center;
+}

@@ -3,50 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Contact form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-
-  Contact Us
-
-  First Name
-  This field is required
-
-  Last Name
-  This field is required
-
-  Email Address
-  Please enter a valid email address
-  This field is required
-
-  Query Type
-  General Enquiry
-  Support Request
-  Please select a query type
-
-  Message
-  This field is required
-
-  I consent to being contacted by the team
-  To submit this form, please consent to being contacted
-
-  Submit
-
-  Message Sent!
-  Thanks for completing the form. We'll be in touch soon!
-  
+<body class="Primary1">
+  <section>
+    <form method="POST" class="White">
+      <h2>Contact Us</h2>
+      <div class="input-flex-r">
+        <div class="input-flex-c">
+          <label>First Name</label>
+          <input type="text" />
+        </div>
+        <div class="input-flex-c">
+          <label>Last Name</label>
+          <input type="text" />
+        </div>
+      </div>
+      <div class="input-flex-c">
+        <label>Email Address</label>
+        <input type="email" />
+      </div>
+      <div class="input-flex-c gray2">
+        <label>Query Type</label>
+        <div class="input-flex-r">
+          <div class="input-radio gray2">
+            <input type="radio">
+            General Enquiry
+          </div>
+          <div class="input-radio">
+            <input type="radio">
+            Support Request
+          </div>
+        </div>
+      </div>
+      <div class="input-flex-c">
+        <label for="message">Message</label>
+        <textarea name="message" rows="5"></textarea>
+      </div>
+      <div class="gray2">
+        <input type="checkbox">
+        I consent to being contacted by the team
+      </div>
+      <button onclick="<script>(e)=>{e.target.</script>" class="Primary2 white">submit</button>
+    </form>
+  </section>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/HyunjiiKim">Hyunji Kim</a>.
   </div>
 </body>
 </html>
